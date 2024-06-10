@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.infra\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|solutionrelative:thelearninghub.infra\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D7F1B4-1F7D-4B8B-AE0A-1AE98BD26AA0}|TheLearningHub.core\\TheLearningHub.core.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.core\\irepository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D7F1B4-1F7D-4B8B-AE0A-1AE98BD26AA0}|TheLearningHub.core\\TheLearningHub.core.csproj|solutionrelative:thelearninghub.core\\irepository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.infra\\common\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +23,20 @@
       "RelativeMoniker": "D:0:0:{57D7F1B4-1F7D-4B8B-AE0A-1AE98BD26AA0}|TheLearningHub.core\\TheLearningHub.core.csproj|solutionrelative:thelearninghub.core\\icommon\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57D7F1B4-1F7D-4B8B-AE0A-1AE98BD26AA0}|TheLearningHub.core\\TheLearningHub.core.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.core\\thelearninghub.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57D7F1B4-1F7D-4B8B-AE0A-1AE98BD26AA0}|TheLearningHub.core\\TheLearningHub.core.csproj|solutionrelative:thelearninghub.core\\thelearninghub.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.infra\\thelearninghub.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|solutionrelative:thelearninghub.infra\\thelearninghub.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\thelearninghub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\thelearninghub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57D7F1B4-1F7D-4B8B-AE0A-1AE98BD26AA0}|TheLearningHub.core\\TheLearningHub.core.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.core\\data\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,18 +47,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.140\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.infra\\thelearninghub.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|solutionrelative:thelearninghub.infra\\thelearninghub.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57D7F1B4-1F7D-4B8B-AE0A-1AE98BD26AA0}|TheLearningHub.core\\TheLearningHub.core.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.core\\thelearninghub.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{57D7F1B4-1F7D-4B8B-AE0A-1AE98BD26AA0}|TheLearningHub.core\\TheLearningHub.core.csproj|solutionrelative:thelearninghub.core\\thelearninghub.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\thelearninghub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\thelearninghub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.infra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,89 +64,115 @@
       "DocumentGroups": [
         {
           "DockedHeight": 326,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Common\\DbContext.cs",
-              "RelativeDocumentMoniker": "TheLearningHub.infra\\Common\\DbContext.cs",
-              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Common\\DbContext.cs",
-              "RelativeToolTip": "TheLearningHub.infra\\Common\\DbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAARAAAA",
+              "DocumentIndex": 0,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Repository\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.infra\\Repository\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Repository\\CourseRepository.cs",
+              "RelativeToolTip": "TheLearningHub.infra\\Repository\\CourseRepository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwA4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T08:47:37.755Z",
+              "WhenOpened": "2024-06-10T08:42:19.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\IRepository\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.core\\IRepository\\ICourseRepository.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\IRepository\\ICourseRepository.cs",
+              "RelativeToolTip": "TheLearningHub.core\\IRepository\\ICourseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:09:01.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TheLearningHub.infra.csproj",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\TheLearningHub.infra.csproj",
+              "RelativeDocumentMoniker": "TheLearningHub.infra\\TheLearningHub.infra.csproj",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\TheLearningHub.infra.csproj",
+              "RelativeToolTip": "TheLearningHub.infra\\TheLearningHub.infra.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-06T07:03:58.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TheLearningHub.core.csproj",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\TheLearningHub.core.csproj",
+              "RelativeDocumentMoniker": "TheLearningHub.core\\TheLearningHub.core.csproj",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\TheLearningHub.core.csproj",
+              "RelativeToolTip": "TheLearningHub.core\\TheLearningHub.core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-06T07:02:00.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IDbContext.cs",
               "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\ICommon\\IDbContext.cs",
               "RelativeDocumentMoniker": "TheLearningHub.core\\ICommon\\IDbContext.cs",
               "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\ICommon\\IDbContext.cs",
               "RelativeToolTip": "TheLearningHub.core\\ICommon\\IDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T08:44:50.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Program.cs",
               "RelativeDocumentMoniker": "TheLearningHub.API\\Program.cs",
               "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Program.cs",
               "RelativeToolTip": "TheLearningHub.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAxwBQAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T07:50:08.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\appsettings.json",
               "RelativeDocumentMoniker": "TheLearningHub.API\\appsettings.json",
               "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\appsettings.json",
               "RelativeToolTip": "TheLearningHub.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAADqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-06-06T07:41:34.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ModelContext.cs",
-              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\Data\\ModelContext.cs",
-              "RelativeDocumentMoniker": "TheLearningHub.core\\Data\\ModelContext.cs",
-              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\Data\\ModelContext.cs",
-              "RelativeToolTip": "TheLearningHub.core\\Data\\ModelContext.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowCgAAAANAAAA",
+              "DocumentIndex": 3,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Common\\DbContext.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.infra\\Common\\DbContext.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Common\\DbContext.cs",
+              "RelativeToolTip": "TheLearningHub.infra\\Common\\DbContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T07:33:55.419Z",
+              "WhenOpened": "2024-06-06T08:47:37.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "readme.txt",
-              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.140\\readme.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.140\\readme.txt",
-              "ToolTip": "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.140\\readme.txt",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.140\\readme.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-06T07:18:23.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "readme.txt",
               "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\oracle.manageddataaccess.core\\3.21.140\\readme.txt",
               "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\oracle.manageddataaccess.core\\3.21.140\\readme.txt",
@@ -146,51 +180,48 @@
               "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\oracle.manageddataaccess.core\\3.21.140\\readme.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-06T07:17:14.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T07:17:14.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TheLearningHub.infra",
-              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\TheLearningHub.infra.csproj",
-              "RelativeDocumentMoniker": "TheLearningHub.infra\\TheLearningHub.infra.csproj",
-              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\TheLearningHub.infra.csproj",
-              "RelativeToolTip": "TheLearningHub.infra\\TheLearningHub.infra.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-06T07:03:58.378Z",
-              "EditorCaption": ""
+              "DocumentIndex": 11,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.140\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.140\\readme.txt",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.140\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.140\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-06T07:18:23.701Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "TheLearningHub.core",
-              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\TheLearningHub.core.csproj",
-              "RelativeDocumentMoniker": "TheLearningHub.core\\TheLearningHub.core.csproj",
-              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\TheLearningHub.core.csproj",
-              "RelativeToolTip": "TheLearningHub.core\\TheLearningHub.core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-06T07:02:00.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TheLearningHub.API",
+              "Title": "TheLearningHub.API.csproj",
               "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\TheLearningHub.API.csproj",
               "RelativeDocumentMoniker": "TheLearningHub.API\\TheLearningHub.API.csproj",
               "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\TheLearningHub.API.csproj",
               "RelativeToolTip": "TheLearningHub.API\\TheLearningHub.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-06-06T06:48:13.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
+              "Title": "ModelContext.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\Data\\ModelContext.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.core\\Data\\ModelContext.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\Data\\ModelContext.cs",
+              "RelativeToolTip": "TheLearningHub.core\\Data\\ModelContext.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T07:33:55.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Class1.cs",
               "RelativeDocumentMoniker": "TheLearningHub.infra\\Class1.cs",
@@ -198,12 +229,11 @@
               "RelativeToolTip": "TheLearningHub.infra\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T06:51:58.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T06:51:58.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.core\\Class1.cs",
               "RelativeDocumentMoniker": "TheLearningHub.core\\Class1.cs",
@@ -211,8 +241,7 @@
               "RelativeToolTip": "TheLearningHub.core\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T06:50:49.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T06:50:49.455Z"
             }
           ]
         }
