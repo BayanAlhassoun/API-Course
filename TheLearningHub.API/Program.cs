@@ -1,7 +1,9 @@
 using TheLearningHub.core.ICommon;
 using TheLearningHub.core.IRepository;
+using TheLearningHub.core.IService;
 using TheLearningHub.infra.Common;
 using TheLearningHub.infra.Repository;
+using TheLearningHub.infra.Service;
 
 namespace TheLearningHub.API
 {
@@ -19,6 +21,9 @@ namespace TheLearningHub.API
             builder.Services.AddSwaggerGen();
             builder.Services.AddScoped<IDbContext, DbContext>();
             builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<ICourseService, CourseService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

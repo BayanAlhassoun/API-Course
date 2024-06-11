@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -14,11 +15,12 @@ namespace TheLearningHub.infra.Repository
 {
     public class CourseRepository : ICourseRepository
     {
+
         private readonly IDbContext _dbContext;
 
-        public CourseRepository(IDbContext dbContext)
+        public CourseRepository(IDbContext dbContext) // IDbContext DbContext = new DbContext();
         {
-            _dbContext = dbContext;
+            _dbContext = dbContext; // _dbContext = new DbContext()
         }
 
         public async Task CreateCourse(Course course)
@@ -37,7 +39,6 @@ namespace TheLearningHub.infra.Repository
             param.Add("Course_Id", id, dbType: DbType.Int32, direction: ParameterDirection.Input);
             var result = await _dbContext.Connection.ExecuteAsync("Course_Package.DeleteCourse", param, commandType: CommandType.StoredProcedure);
         }
-
         public async Task<List<Course>> GetAllCourses()
         {
             var result = await _dbContext.Connection.QueryAsync<Course>("Course_Package.GetAllCourses", commandType: CommandType.StoredProcedure);

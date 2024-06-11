@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using TheLearningHub.core.Data;
 
-namespace TheLearningHub.core.IRepository
+namespace TheLearningHub.core.IService
 {
-    public interface ICourseRepository
+    public interface ICourseService
     {
         Task<List<Course>> GetAllCourses();
         Task<Course> GetCourseById(int id);
@@ -17,6 +17,5 @@ namespace TheLearningHub.core.IRepository
         Task UpdateCourse(Course course);
 
         Task DeleteCourse(int id);
-
     }
 }
