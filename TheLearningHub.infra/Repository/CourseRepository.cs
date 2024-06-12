@@ -41,7 +41,7 @@ namespace TheLearningHub.infra.Repository
         }
         public async Task<List<Course>> GetAllCourses()
         {
-            var result = await _dbContext.Connection.QueryAsync<Course>("Course_Package.GetAllCourses", commandType: CommandType.StoredProcedure);
+            var result = await _dbContext.Connection.QueryAsync<Course>("Course_Package.GetAllCourses", commandType: CommandType.StoredProcedure);      
             return result.ToList();
         }
 

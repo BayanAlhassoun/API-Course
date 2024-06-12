@@ -10,3 +10,4 @@ C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.core\obj
 C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.core\obj\Debug\net6.0\refint\TheLearningHub.core.dll
 C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.core\obj\Debug\net6.0\TheLearningHub.core.pdb
 C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.core\obj\Debug\net6.0\ref\TheLearningHub.core.dll
+C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.core\obj\Debug\net6.0\TheLearningHub.core.sourcelink.json

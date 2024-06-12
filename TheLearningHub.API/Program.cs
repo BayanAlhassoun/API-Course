@@ -24,6 +24,8 @@ namespace TheLearningHub.API
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<ICourseService, CourseService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IStudent_Course_Repository, Student_Course_Repository>();
+            builder.Services.AddScoped<IStudent_Course_Service, Student_Course_Service>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

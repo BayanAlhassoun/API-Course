@@ -15,3 +15,4 @@ C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.infra\ob
 C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.infra\obj\Debug\net6.0\TheLearningHub.infra.pdb
 C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.infra\obj\Debug\net6.0\TheLearningHub.infra.genruntimeconfig.cache
 C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.infra\obj\Debug\net6.0\ref\TheLearningHub.infra.dll
+C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.infra\obj\Debug\net6.0\TheLearningHub.infra.sourcelink.json

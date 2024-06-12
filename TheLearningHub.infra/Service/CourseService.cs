@@ -34,11 +34,13 @@ namespace TheLearningHub.infra.Service
            return await _courseRepository.GetAllCourses();
         }
 
+
+
         public async Task<Course> GetCourseById(int id)
         {
-           //return await _courseRepository.GetCourseById(id);
+            //return await _courseRepository.GetCourseById(id);
 
-           var result = await _courseRepository.GetAllCourses();
+            var result = await _courseRepository.GetAllCourses();
             var course = result.Where(x => x.Courseid == id).FirstOrDefault();
             return course;
         }
