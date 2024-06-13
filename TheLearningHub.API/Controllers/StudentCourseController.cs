@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TheLearningHub.core.Data;
+using TheLearningHub.core.DTO;
 using TheLearningHub.core.IService;
 
 namespace TheLearningHub.API.Controllers
@@ -18,9 +19,16 @@ namespace TheLearningHub.API.Controllers
 
         [HttpGet]
         [Route ("Search/{startDate}/{endDate}")]
-        public List<Student> Search(DateTime startDate, DateTime endDate)
+        public List<SearchResult> Search(DateTime startDate, DateTime endDate)
         {
             return _student_course_service.Search(startDate, endDate);
+        }
+
+        [HttpGet]
+        [Route ("GetStudents/{numberOfStudents}")]
+        public List<StudentsMark> get_top_students_by_grades(int numberOfStudents)
+        {
+            return _student_course_service.get_top_students_by_grades(numberOfStudents);
         }
     }
 }

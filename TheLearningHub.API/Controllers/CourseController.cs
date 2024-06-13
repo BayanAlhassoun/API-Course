@@ -42,7 +42,7 @@ namespace TheLearningHub.API.Controllers
 
         [HttpGet]
         [Route ("GetById/{id}")]
-        public async Task<Course> GetCourseById(int id) // API: hostname/port/API/Course/GetById
+        public async Task<Course> GetCourseById(int id) // API: hostname/port/API/Course/GetById/X
         {
            return await _courseService.GetCourseById(id);
         }

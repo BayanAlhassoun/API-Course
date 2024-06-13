@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TheLearningHub.core.Data;
+using TheLearningHub.core.DTO;
 using TheLearningHub.core.IRepository;
 using TheLearningHub.core.IService;
 
@@ -18,7 +19,12 @@ namespace TheLearningHub.infra.Service
             _student_Course = student_Course;
         }
 
-        public List<Student> Search(DateTime startDate, DateTime endDate)
+        public List<StudentsMark> get_top_students_by_grades(int numberOfStudents)
+        {
+            return _student_Course.get_top_students_by_grades(numberOfStudents);
+        }
+
+        public List<SearchResult> Search(DateTime startDate, DateTime endDate)
         {
          return  _student_Course.Search(startDate, endDate);
         }

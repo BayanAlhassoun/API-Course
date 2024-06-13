@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TheLearningHub.core.Data;
+using TheLearningHub.core.DTO;
 using TheLearningHub.core.ICommon;
 using TheLearningHub.core.IRepository;
 
@@ -20,12 +21,20 @@ namespace TheLearningHub.infra.Repository
             _dbContext = dbContext;
         }
 
-        public List<Student> Search(DateTime startDate, DateTime endDate)
+        public List<StudentsMark> get_top_students_by_grades(int numberOfStudents)
+        {
+            var p = new DynamicParameters();
+            p.Add("rows_fetchers", numberOfStudents, dbType: DbType.Int32, direction: ParameterDirection.Input);
+            var result = _dbContext.Connection.Query<StudentsMark>("Student_Course_Package.get_top_students_by_grades", p, commandType: CommandType.StoredProcedure);
+            return result.ToList();
+        }
+
+        public List<SearchResult> Search(DateTime startDate, DateTime endDate)
         {
             var p = new DynamicParameters();
             p.Add("DateFrom", startDate, dbType: DbType.DateTime, direction: ParameterDirection.Input);
             p.Add("DateTo", endDate, dbType: DbType.DateTime, direction: ParameterDirection.Input);
-            var result = _dbContext.Connection.Query<Student>("Student_Course_Package.GetInfoByInterval", p, commandType: CommandType.StoredProcedure);
+            var result = _dbContext.Connection.Query<SearchResult>("Student_Course_Package.GetInfoByInterval", p, commandType: CommandType.StoredProcedure);
             return result.ToList();
         }
     }
