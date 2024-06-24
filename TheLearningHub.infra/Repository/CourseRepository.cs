@@ -15,7 +15,6 @@ namespace TheLearningHub.infra.Repository
 {
     public class CourseRepository : ICourseRepository
     {
-
         private readonly IDbContext _dbContext;
 
         public CourseRepository(IDbContext dbContext) // IDbContext DbContext = new DbContext();

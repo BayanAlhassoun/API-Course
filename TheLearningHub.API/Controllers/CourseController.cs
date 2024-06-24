@@ -17,7 +17,7 @@ namespace TheLearningHub.API.Controllers
         }
 
         [HttpGet]
-        public async Task<List<Course>> GetAllCourses() // MVC: hostname/port/Course/GetAllCourses // API: hostname/port/API/Course
+        public async Task<List<Course>> GetAllCourses() // MVC: hostname/port/Course/GetAllCourses // API: hostname/port/API/Course => Get
         {
            return await _courseService.GetAllCourses();
         }
