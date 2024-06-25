@@ -22,14 +22,17 @@ namespace TheLearningHub.infra.Repository
             _dbContext = dbContext; // _dbContext = new DbContext()
         }
 
-        public async Task CreateCourse(Course course)
+        public async Task<int> CreateCourse(Course course)
         {
             var param = new DynamicParameters();
             param.Add("course_name", course.Coursename, dbType: DbType.String, direction: ParameterDirection.Input);
             param.Add("category_id", course.Categoryid, dbType: DbType.Int32, direction: ParameterDirection.Input);
             param.Add("Image_name", course.Imagename, dbType: DbType.String, direction: ParameterDirection.Input);
-
+            param.Add("C_id", dbType: DbType.Int32, direction: ParameterDirection.Output);
             var result = await _dbContext.Connection.ExecuteAsync("Course_Package.CreateCourse" , param, commandType: CommandType.StoredProcedure);
+            int courseid = param.Get<int>("C_id");
+            return courseid;
+
         }
 
         public async Task DeleteCourse(int id)
@@ -40,7 +43,13 @@ namespace TheLearningHub.infra.Repository
         }
         public async Task<List<Course>> GetAllCourses()
         {
-            var result = await _dbContext.Connection.QueryAsync<Course>("Course_Package.GetAllCourses", commandType: CommandType.StoredProcedure);      
+            var result = await _dbContext.Connection.QueryAsync<Category, Course , Course>("Course_Package.GetAllCourses" , (category, course) => {
+                course.Category = category;
+                return course;  
+            } , 
+            splitOn: "courseid",
+            commandType: CommandType.StoredProcedure);      
+
             return result.ToList();
         }
 

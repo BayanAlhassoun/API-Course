@@ -12,7 +12,7 @@ namespace TheLearningHub.core.IRepository
         Task<List<Course>> GetAllCourses();
         Task<Course> GetCourseById(int id);
 
-        Task CreateCourse(Course course);
+        Task<int> CreateCourse(Course course);
 
         Task UpdateCourse(Course course);
 

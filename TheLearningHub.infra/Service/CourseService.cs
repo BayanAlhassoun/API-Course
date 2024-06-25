@@ -19,9 +19,9 @@ namespace TheLearningHub.infra.Service
             _courseRepository = courseRepository;
         }
 
-        public async Task CreateCourse(Course course)
+        public async Task<int> CreateCourse(Course course)
         {
-          await  _courseRepository.CreateCourse(course);
+         return await  _courseRepository.CreateCourse(course);
         }
 
         public async Task DeleteCourse(int id)

@@ -30,9 +30,12 @@ namespace TheLearningHub.infra.Service
 
         public async Task<List<Category>> GetAllCategories()
         {
-            return await _categoryRepository.GetAllCategories();
+            var result = await _categoryRepository.GetAllCategories();
+            var finalResult = from r in result
+                              group r by r.Categoryid into g
+                              select new Category { Categoryid = g.Key, Categoryname = g.First().Categoryname, Courses = g.SelectMany(x => x.Courses).ToList() };
+            return finalResult.ToList();
         }
-
         public Task<Category> GetCategoryById(int id)
         {
             return _categoryRepository.GetCategoryById(id);

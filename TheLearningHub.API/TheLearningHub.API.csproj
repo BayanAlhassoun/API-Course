@@ -20,4 +20,8 @@
     <ProjectReference Include="..\TheLearningHub.infra\TheLearningHub.infra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
 </Project>

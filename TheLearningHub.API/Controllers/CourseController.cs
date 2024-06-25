@@ -23,9 +23,9 @@ namespace TheLearningHub.API.Controllers
         }
 
         [HttpPost]
-        public async Task CreateCourse([FromBody] Course course)
+        public async Task<int> CreateCourse([FromBody] Course course)
         {
-            await _courseService.CreateCourse(course);
+           return await _courseService.CreateCourse(course);
         }
 
         [HttpPut]
@@ -47,5 +47,21 @@ namespace TheLearningHub.API.Controllers
            return await _courseService.GetCourseById(id);
         }
 
+        [HttpPost]
+        [Route("UploadImage")]
+        public string UploadImage()
+        {
+            var file = Request.Form.Files[0];
+            var fileName = Guid.NewGuid().ToString() + "_" + file.FileName;
+            var fullPath = Path.Combine("C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Images\\", fileName);
+            using (var stream = new FileStream(fullPath, FileMode.Create ))
+            {
+                file.CopyTo(stream);
+            }
+
+            return fileName;
+        }
+
     }
 }
+

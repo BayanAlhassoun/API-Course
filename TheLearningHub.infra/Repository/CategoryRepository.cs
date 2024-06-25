@@ -37,7 +37,13 @@ namespace TheLearningHub.infra.Repository
 
         public async Task<List<Category>> GetAllCategories()
         {
-            var result = await _dbContext.Connection.QueryAsync<Category>("Category_Package.GetAllCategories", commandType: CommandType.StoredProcedure);
+            var result = await _dbContext.Connection.QueryAsync<Category, Course, Category>("Category_Package.GetAllCategories", (category, course) => {
+                category.Courses.Add(course);
+                return category;
+
+            },
+            splitOn: "courseid",
+                commandType: CommandType.StoredProcedure); 
             return result.ToList();
         }
 
