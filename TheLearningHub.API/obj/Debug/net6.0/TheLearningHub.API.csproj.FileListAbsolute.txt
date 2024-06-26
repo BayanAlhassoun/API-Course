@@ -102,3 +102,4 @@ C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.API\obj\
 C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.API\obj\Debug\net6.0\ref\TheLearningHub.API.dll
 C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.API\obj\Debug\net6.0\TheLearningHub.API.sourcelink.json
 C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\b.alhassoun.ext\source\repos\TheLearningHub.API\TheLearningHub.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

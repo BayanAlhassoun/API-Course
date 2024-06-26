@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qYldH8G4z8sRMAMKngMll5BSc28YLBQTeyalKD7usRrBQLFnF+CQpXa6IgvQd375w3hPGLFcdLuPDb2m7UKw/g==",
+  "dgSpecHash": "4CzDfPpsvQw1PxgpIPZudRY6bjJkdiEkp/nFt0lSoEOMCG8MZy2nQmkrKjPhTrrtfiFZ3RRpgRLXIsCC0xT4dg==",
   "success": true,
   "projectFilePath": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\TheLearningHub.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
     "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.31\\microsoft.aspnetcore.authentication.jwtbearer.6.0.31.nupkg.sha512",
     "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\b.alhassoun.ext\\.nuget\\packages\\microsoft.data.sqlclient\\5.2.1\\microsoft.data.sqlclient.5.2.1.nupkg.sha512",

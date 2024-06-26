@@ -1,3 +1,7 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using TheLearningHub.core.ICommon;
 using TheLearningHub.core.IRepository;
 using TheLearningHub.core.IService;
@@ -26,6 +30,23 @@ namespace TheLearningHub.API
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<IStudent_Course_Repository, Student_Course_Repository>();
             builder.Services.AddScoped<IStudent_Course_Service, Student_Course_Service>();
+            builder.Services.AddScoped<ILoginRepository, LoginRepository>();
+            builder.Services.AddScoped<ILoginService, Login_Service>();
+
+            builder.Services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x => x.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = false,
+                ValidateAudience = false,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,// H,P, Sig => H, P + secret
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Belive in your self, keep going and never stop ... you are star and the ski is the limit., Belive in your self, keep going and never stop ... you are star and the ski is the limit "))
+            });
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -35,6 +56,8 @@ namespace TheLearningHub.API
                 app.UseSwaggerUI();
             }
 
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
