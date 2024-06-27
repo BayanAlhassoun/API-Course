@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.infra\\service\\login service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|solutionrelative:thelearninghub.infra\\service\\login service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\controllers\\checkclaimsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\controllers\\checkclaimsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7B1FE3-24D0-43DD-8E77-65D2E187A961}|TheLearningHub.API\\TheLearningHub.API.csproj|solutionrelative:thelearninghub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|c:\\users\\b.alhassoun.ext\\source\\repos\\thelearninghub.api\\thelearninghub.infra\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE372A5B-BAA4-4B24-BB61-1060DD03C478}|TheLearningHub.infra\\TheLearningHub.infra.csproj|solutionrelative:thelearninghub.infra\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 326,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckClaimsAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Controllers\\CheckClaimsAttribute.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.API\\Controllers\\CheckClaimsAttribute.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Controllers\\CheckClaimsAttribute.cs",
+              "RelativeToolTip": "TheLearningHub.API\\Controllers\\CheckClaimsAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:43:59.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Program.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.API\\Program.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Program.cs",
+              "RelativeToolTip": "TheLearningHub.API\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAC8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:19:55.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.API\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "TheLearningHub.API\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:09:11.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.API\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "TheLearningHub.API\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:37:26.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login Service.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Service\\Login Service.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.infra\\Service\\Login Service.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Service\\Login Service.cs",
+              "RelativeToolTip": "TheLearningHub.infra\\Service\\Login Service.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:36:12.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Repository\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "TheLearningHub.infra\\Repository\\LoginRepository.cs",
+              "ToolTip": "C:\\Users\\b.alhassoun.ext\\source\\repos\\TheLearningHub.API\\TheLearningHub.infra\\Repository\\LoginRepository.cs",
+              "RelativeToolTip": "TheLearningHub.infra\\Repository\\LoginRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:35:07.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

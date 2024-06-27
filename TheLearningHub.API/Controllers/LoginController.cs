@@ -20,7 +20,7 @@ namespace TheLearningHub.API.Controllers
         [HttpPost]
         public IActionResult Login(Login login)
         {
-            var result = _loginService.Login(login);
+            var result = _loginService.Login(login); // result = null, token as string
 
             if (result == null)
             {

@@ -43,8 +43,9 @@ namespace TheLearningHub.API
                 ValidateAudience = false,
                 ValidateLifetime = true,
                 ValidateIssuerSigningKey = true,// H,P, Sig => H, P + secret
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Belive in your self, keep going and never stop ... you are star and the ski is the limit., Belive in your self, keep going and never stop ... you are star and the ski is the limit "))
-            });
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Belive in your self, keep going and never stop ... you are star and the ski is the limit., Belive in your self, keep going and never stop ... you are star and the ski is the limit ")),
+                ClockSkew = TimeSpan.Zero
+            });;
 
 
             var app = builder.Build();

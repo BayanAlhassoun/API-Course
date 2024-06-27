@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TheLearningHub.core.Data;
 using TheLearningHub.core.IService;
@@ -7,6 +8,7 @@ namespace TheLearningHub.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class CourseController : ControllerBase
     {
         private readonly ICourseService _courseService;
@@ -17,6 +19,8 @@ namespace TheLearningHub.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
+        [CheckClaims ("RoleId", "2")]
         public async Task<List<Course>> GetAllCourses() // MVC: hostname/port/Course/GetAllCourses // API: hostname/port/API/Course => Get
         {
            return await _courseService.GetAllCourses();
@@ -42,6 +46,8 @@ namespace TheLearningHub.API.Controllers
 
         [HttpGet]
         [Route ("GetById/{id}")]
+        [CheckClaims("RoleId", "1")]
+
         public async Task<Course> GetCourseById(int id) // API: hostname/port/API/Course/GetById/X
         {
            return await _courseService.GetCourseById(id);
