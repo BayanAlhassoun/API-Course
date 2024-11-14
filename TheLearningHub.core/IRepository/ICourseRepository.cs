@@ -16,7 +16,7 @@ namespace TheLearningHub.core.IRepository
 
         Task UpdateCourse(Course course);
 
-        Task DeleteCourse(int id);
+        Task<int> DeleteCourse(int id);
 
     }
 }

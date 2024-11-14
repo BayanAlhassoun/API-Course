@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
 using TheLearningHub.core.Data;
 using TheLearningHub.core.IService;
 
@@ -19,8 +20,8 @@ namespace TheLearningHub.API.Controllers
         }
 
         [HttpGet]
-        [Authorize]
-        [CheckClaims ("RoleId", "2")]
+        //[Authorize]
+        //[CheckClaims ("RoleId", "2")]
         public async Task<List<Course>> GetAllCourses() // MVC: hostname/port/Course/GetAllCourses // API: hostname/port/API/Course => Get
         {
            return await _courseService.GetAllCourses();
@@ -39,9 +40,9 @@ namespace TheLearningHub.API.Controllers
         }
 
         [HttpDelete ("{id}")] // hostname/port/api/course/1
-        public async Task DeleteCourse(int id)
+        public async Task<int> DeleteCourse(int id)
         {
-            await _courseService.DeleteCourse(id);
+          return  await _courseService.DeleteCourse(id);
         }
 
         [HttpGet]

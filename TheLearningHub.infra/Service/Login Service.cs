@@ -30,7 +30,7 @@ public Login_Service(ILoginRepository loginRepository)
             }
             else
             {
-                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Belive in your self, keep going and never stop ... you are star and the ski is the limit., Belive in your self, keep going and never stop ... you are star and the ski is the limit "));
+                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Belive in your self, keep going and never stop ... you are star and the ski is the limit., Belive in your self, keep going and never stop ... you are star and the ski is the limit ")); // H + P + SC
                 var signCred = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
                 var claims = new List<Claim>

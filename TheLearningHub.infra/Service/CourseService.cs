@@ -24,9 +24,9 @@ namespace TheLearningHub.infra.Service
          return await  _courseRepository.CreateCourse(course);
         }
 
-        public async Task DeleteCourse(int id)
+        public async Task<int> DeleteCourse(int id)
         {
-           await _courseRepository.DeleteCourse(id);
+          return  await _courseRepository.DeleteCourse(id);
         }
 
         public async Task<List<Course>> GetAllCourses()

@@ -16,6 +16,6 @@ namespace TheLearningHub.core.IService
 
         Task UpdateCourse(Course course);
 
-        Task DeleteCourse(int id);
+        Task<int> DeleteCourse(int id);
     }
 }

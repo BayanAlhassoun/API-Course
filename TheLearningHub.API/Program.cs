@@ -18,7 +18,14 @@ namespace TheLearningHub.API
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Services.AddCors(corsOptions =>
+            {
+                corsOptions.AddPolicy("x",
+                builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                });
+            });
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -59,10 +66,11 @@ namespace TheLearningHub.API
 
             app.UseAuthentication();
             app.UseAuthorization();
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            app.UseCors("x");
 
             app.MapControllers();
 

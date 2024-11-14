@@ -35,11 +35,15 @@ namespace TheLearningHub.infra.Repository
 
         }
 
-        public async Task DeleteCourse(int id)
+        public async Task<int> DeleteCourse(int id)
         {
             var param = new DynamicParameters();
             param.Add("Course_Id", id, dbType: DbType.Int32, direction: ParameterDirection.Input);
+            param.Add("id", dbType: DbType.Int32, direction: ParameterDirection.Output);
             var result = await _dbContext.Connection.ExecuteAsync("Course_Package.DeleteCourse", param, commandType: CommandType.StoredProcedure);
+            int returnedId = param.Get<int>("id");
+            return returnedId;
+
         }
         public async Task<List<Course>> GetAllCourses()
         {

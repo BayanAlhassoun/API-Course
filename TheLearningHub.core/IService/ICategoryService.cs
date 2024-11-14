@@ -18,5 +18,6 @@ namespace TheLearningHub.core.IService
         Task UpdateCategory(Category category);
 
         Task DeleteCategory(int id);
+
     }
 }
